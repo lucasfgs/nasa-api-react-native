@@ -8,7 +8,7 @@ import Header from "./components/DrawerHeader";
 
 const sideBar = createDrawerNavigator(
   {
-    Apod,
+    "Astronomy Picture of the Day": Apod,
     Asteroids,
     Mars
   },

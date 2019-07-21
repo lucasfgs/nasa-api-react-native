@@ -7,8 +7,6 @@ import Icon from "react-native-vector-icons/Ionicons";
 import Logo from "../assets/images/logo.png";
 
 const DrawerHeader = props => {
-  console.log(props);
-
   return (
     <View>
       <View style={styles.header}>
