@@ -30,7 +30,7 @@ const Apod = () => {
       alwaysBounceVertical={true}
     >
       <Text style={styles.title}>{apod.title}</Text>
-      <Text style={styles.description}>{apod.explanation}</Text>
+      <Text style={styles.description}> {apod.explanation}</Text>
       <Image style={styles.image} source={{ uri: apod.hdurl }} />
     </ScrollView>
   );
@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
   image: {
     flex: 1,
     width: Math.round(Dimensions.get("window").width),
-    height: Math.round(Dimensions.get("window").height / 2),
+    height: Math.round(Dimensions.get("window").width),
     resizeMode: "center"
   }
 });
